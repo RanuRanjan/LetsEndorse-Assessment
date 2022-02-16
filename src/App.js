@@ -167,7 +167,7 @@ const getPri=(e)=>{
        <option >wide range of product/services </option>
        <option >robust value-chain of the business </option>
        <option >frquency of customer visit</option>
-     </select>
+     </select><br />
        
       <label >Locality of business</label>
       <select onChange={getLocal} >
@@ -189,10 +189,10 @@ const getPri=(e)=>{
      (Enter 0 if the establishment area is irrelevant)  :
      </label>
 
-     <input type="number" placeholder=' Establishment area'   onChange={getEstab}/><br />
+     <input type="number" placeholder=' Establishment area'   onChange={getEstab}/>
 
 
-     <h1>Target Market :  </h1>
+     <h2>Target Market :  </h2>
 
      <label >Market research</label><br />
      <select onChange={getMark} >
